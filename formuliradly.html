@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>formulir.adly</title>
+<style>
+  body {
+    background-color: #f4f4f4;
+  }
+  fieldset {
+   background-color: #555; 
+   box-shadow: 12px 12px 2px 1px rgba(0, 0, 55, .2);
+  }
+  table {
+    color: white;
+    font-family: arial Comic Sans MS;
+  }
+      form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="password"],
+        input[type="number"],
+        input[type="textarea"],
+        select {
+            width: 100%;
+            padding: 6px;
+            margin-bottom: 12lpx;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 12px 12px 2px 1px rgba(0, 0, 55, .2);
+        }
+        textarea {
+          width: 100%;
+            padding: 6px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 12px 12px 2px 1px rgba(0, 0, 55, .2);
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 7px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+      </style>
+<body>
+  <h1>
+    <center>
+      FORMULIR
+    </center>
+  </h1>
+<form><fieldset><legend></legend>
+<form action="mailto:adlimuhamad358@gmail.com" method="post" enctype="text/plain">
+  <table>
+    <tr>
+       <td>Nama :</td>
+       <td><input type="text"></td>
+    </tr>
+    <tr>
+       <td>Password :</td>
+       <td><input type="password"></td>
+    </tr>
+    <tr>
+      <td>No:</td>
+      <td><input type="number"></td>
+    </tr>
+    <tr>
+      <td>No Orangtua :</td>
+      <td><input type="number"</td>
+    </tr>
+    <tr>
+      <td>Tanggal Lahir :</td>
+      <td><input type="date"></td>
+    </tr>
+    <tr>
+      <td>Jenis Kelamin :</td>
+      <td><input type="radio" name="jk">laki laki
+      <input type="radio" name="jk">perempuan
+      </td>
+  </tr>
+  <tr>
+     <td>Hobi :</td>
+      <td><input type="checkbox">Futsal
+      <input type="checkbox">Basket
+      <input type="checkbox">Volly
+      </td>
+  </tr>
+  <tr>
+    <td>Status :</td>
+    <td><select>
+      <option>Mahasiswa</option>
+      <option>Pegawai</option>
+      <option>Presiden</option>
+      <option>Pelajar</option>
+    </select>
+    </td>
+  </tr>
+  <tr>
+    <td>Asal Sekolah :</td>
+    <td><select>
+      <option>SMKN 1 Ciomas</option>
+      <option>SMAN 1 Ciomas</option>
+      <option>SMAN 1 Dramaga</option>
+      
+    </select></td>
+  </tr>
+  <tr>
+    <td>Alamat :</td>
+    <td>
+      <textarea></textarea>
+    </td>
+  </tr>
+  <tr>
+    <td>Kota</td>
+    <td><select>
+      <option>Kota Bogor</option>
+      <option>Kota Bandung</option>
+      <option>Kota Jakarta</option>
+      <option>Kota Bekasi</option>
+    </td></select>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td></td>
+   <td><input type="submit" value="submit">
+   <input type="reset" value="reset">
+<input type="button" value="Go to Home" onclick="window.location.href='websitepemula.html'">
+  </tr>
+     </table>
+   </body>
+</html>
